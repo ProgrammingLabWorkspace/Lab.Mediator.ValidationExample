@@ -1,0 +1,6 @@
+@Lab.Mediator.ValidationExample_HostAddress = http://localhost:5077
+
+GET {{Lab.Mediator.ValidationExample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
