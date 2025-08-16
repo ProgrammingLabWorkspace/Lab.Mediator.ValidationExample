@@ -6,6 +6,10 @@ namespace Lab.Mediator.ValidationExample.Extensions
 {
     public static class ApplicationExtensionBuilder
     {
+        /// <summary>
+        /// Tratamento global para erros.
+        /// </summary>
+        /// <param name="app"></param>
         public static void UseValidationExceptionHandler(this IApplicationBuilder app)
         {
             app.UseExceptionHandler(builder =>
@@ -17,9 +21,13 @@ namespace Lab.Mediator.ValidationExample.Extensions
 
                     if(exception is not ValidationException)
                     {
-                        throw exception;
+                        context.Response.StatusCode = 500;
+
+                        await context.Response.WriteAsync("Um erro inesperado ocorreu.");
                     }
 
+                    // Se falhou na verificação do comando...
+                    // então prepara um retorno com status code 400 e especifica quais campos estão incorretos.
                     var validationException = exception as ValidationException;
 
                     var errors = validationException.GetErrors();

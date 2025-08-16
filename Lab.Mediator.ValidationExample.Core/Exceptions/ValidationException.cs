@@ -1,5 +1,8 @@
 ﻿namespace Lab.Mediator.ValidationExample.Core.Exceptions
 {
+    /// <summary>
+    /// Utilizada para tratar falhas em validações de entidades, comandos, dtos, etc.
+    /// </summary>
     public class ValidationException : LabExceptionBase
     {
         private IDictionary<string, string> _errors;    

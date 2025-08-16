@@ -1,3 +1,5 @@
+using Lab.Mediator.ValidationExample.Application.Extensions;
+using Lab.Mediator.ValidationExample.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
@@ -9,12 +11,12 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-builder.Services.AddMediatR(cfg =>
-{
-    cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly(), Assembly.Load("Lab.Mediator.ValidationExample.Application"));
-});
+builder.Services.AddApplication();
 
 var app = builder.Build();
+
+// Adiciona tratamento global para erros.
+app.UseValidationExceptionHandler();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
