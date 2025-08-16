@@ -14,4 +14,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Lab.Mediator.ValidationExample.Core\Lab.Mediator.ValidationExample.Core.csproj" />
+  </ItemGroup>
+
 </Project>
