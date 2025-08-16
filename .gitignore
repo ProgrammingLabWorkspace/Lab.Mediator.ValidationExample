@@ -4,3 +4,6 @@
 
 /.vs
 /Lab.Mediator.ValidationExample.Core/obj
+/Lab.Mediator.ValidationExample.Application/bin/Debug/net9.0
+/Lab.Mediator.ValidationExample.Application/obj
+/Lab.Mediator.ValidationExample.Core/bin/Debug/net9.0

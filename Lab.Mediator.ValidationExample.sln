@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.Mediator.ValidationExam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.Mediator.ValidationExample.Core", "Lab.Mediator.ValidationExample.Core\Lab.Mediator.ValidationExample.Core.csproj", "{8AB1D708-CD2C-44B8-984A-E4116BC66593}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.Mediator.ValidationExample.Application", "Lab.Mediator.ValidationExample.Application\Lab.Mediator.ValidationExample.Application.csproj", "{E3F68F6D-E0BF-42A6-8A88-23927CDF6456}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8AB1D708-CD2C-44B8-984A-E4116BC66593}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB1D708-CD2C-44B8-984A-E4116BC66593}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB1D708-CD2C-44B8-984A-E4116BC66593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F68F6D-E0BF-42A6-8A88-23927CDF6456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F68F6D-E0BF-42A6-8A88-23927CDF6456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F68F6D-E0BF-42A6-8A88-23927CDF6456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F68F6D-E0BF-42A6-8A88-23927CDF6456}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

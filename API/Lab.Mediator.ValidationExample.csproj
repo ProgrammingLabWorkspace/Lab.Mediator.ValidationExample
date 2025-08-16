@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Lab.Mediator.ValidationExample.Application\Lab.Mediator.ValidationExample.Application.csproj" />
     <ProjectReference Include="..\Lab.Mediator.ValidationExample.Core\Lab.Mediator.ValidationExample.Core.csproj" />
   </ItemGroup>
 
