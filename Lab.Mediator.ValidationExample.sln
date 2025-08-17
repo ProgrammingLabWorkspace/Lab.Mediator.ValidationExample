@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.Mediator.ValidationExample", "API\Lab.Mediator.ValidationExample.csproj", "{A2B6E167-8EA8-42A5-9205-614641CEED18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.Mediator.ValidationExample", "Lab.Mediator.ValidationExample.API\Lab.Mediator.ValidationExample.csproj", "{A2B6E167-8EA8-42A5-9205-614641CEED18}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.Mediator.ValidationExample.Core", "Lab.Mediator.ValidationExample.Core\Lab.Mediator.ValidationExample.Core.csproj", "{8AB1D708-CD2C-44B8-984A-E4116BC66593}"
 EndProject

@@ -12,9 +12,10 @@ namespace Lab.Mediator.ValidationExample.Controllers
         private readonly IMediator _mediator;
         private readonly ILogger<UserController> _logger;
 
-        public UserController(IMediator mediator)
+        public UserController(IMediator mediator, ILogger<UserController>  logger)
         {
             _mediator = mediator;
+            _logger = logger;
         }
 
         /// <summary>
